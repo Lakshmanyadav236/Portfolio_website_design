@@ -1,0 +1,62 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #FFB2D0, #FFB2D0); /* Gradient from blue to white */
+}
+
+.navbar {
+  background: linear-gradient(to bottom, #4863A0, #007bff); /* Gradient for navbar */
+  color: #800000; /* Set text color to white */
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #ffffff; /* Set font color of nav links to white */
+}
+.jumbotron {
+  background: linear-gradient(to bottom,  #007bff, #EE82EE); /* Gradient for jumbotron */
+  color: #ffffff; /* Set text color to white */
+}
+
+#contact {
+  background: linear-gradient(to bottom, #CB6D51, #007bff); /* Gradient for contact section */
+  color: #ffffff; /* Set text color to white */
+}
+
+#projects {
+  background: linear-gradient(to bottom, #B048B5, #CB6D51); /* Gradient for projects section */
+  color: #ffffff; /* Set text color to white */
+}
+#projects .card-text {
+  color: #004225; /* Set text color to white */
+}
+.icon {
+      font-size: 36px; /* Adjust the size as needed */
+    }
+.home-link {
+  color: white !important;
+}
+
+/* Custom CSS */
+.jumbotron h1 {
+  font-size: 3rem; /* Adjust the font size as needed for larger screens */
+}
+
+.jumbotron p {
+  font-size: 1.5rem; /* Adjust the font size as needed for larger screens */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .jumbotron h1 {
+    font-size: 2.5rem; /* Decrease the font size for smaller screens */
+  }
+
+  .jumbotron p {
+    font-size: 1.2rem; /* Decrease the font size for smaller screens */
+  }
+}
+/* Custom CSS for Download CV Section */
+#download-cv {
+  background: linear-gradient(to bottom, #FFB2D0, #8f94fb); /* Gradient background */
+}
+
